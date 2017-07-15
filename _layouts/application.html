@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
-	<meta charset="utf-8">
-	<head>
-		{% include _head.html %}
-	</head>
-	<body>
+  <meta charset="utf-8">
+  {% include _head.html %}
+  <body>
+    {% include _header.html %}
 
-		{{ content }}
-		
-		<script src="{{ relative }}assets/javascripts/application.js"></script>
-		
-	</body>
+    {{ content }}
+    
+    {% include _footer.html %}
+    <script src="{{ relative }}assets/javascripts/application.js"></script>
+    
+  </body>
 </html>
