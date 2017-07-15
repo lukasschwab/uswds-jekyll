@@ -1,3 +1,41 @@
+# PUDL Website
+
+Another draft––less from scratch––for the PUDL website. This is probably more attractive because my web design from scratch is awful.
+
+My concern with using the USDS standards is that they might be overly featured. That makes them heavy, and makes some of their CSS utilitarian. 
+
+## Todo
+
+### Important
+
++ Map out initial content
+
++ Update nav accordingly
+
++ Generate initial content
+
++ Change all site info to PUDL
+    + Including copy? Images?
+
+### Unimportant
+
++ Colors
+
++ Posts organization and stuff
+
++ Make the styling somewhat softer
+
++ Reduce weight
+
++ Reduce jekyll build times.
+
++ Figure out hosting; need to be able to manage plugins with github pages. Maybe just push the built site, not the whole thing?
+    + [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+***
+
+Below is the original README.md from the USDS.
+
 # USWDS + Jekyll
 
 This is a boilerplate for using the [U.S. Web Design Standards](https://standards.usa.gov/) to build static websites and prototypes with [Jekyll](https://jekyllrb.com/). 
